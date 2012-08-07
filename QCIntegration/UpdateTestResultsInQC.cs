@@ -33,18 +33,29 @@ namespace oneshore.QCIntegration
             log.Debug("starting QCIntegration");
 
             getConfig();
-            results = getTestResultsFromFile(testResultsFile);
+            //results = getTestResultsFromFile(testResultsFile);
 
             QCController qc = new QCController();
-            qc.connectToQC(qcUrl, qcDomain, qcProject, qcLoginName, qcPassword);
+            TDConnection td = qc.connectToQC(qcUrl, qcDomain, qcProject, qcLoginName, qcPassword);
 
-            List tsTestSetList = qc.retrieveTestSets(qcPath, qcTestSetName);
+            ReqFactory myReqFactory = (ReqFactory)td.ReqFactory; //Start up the Requirments Factory.
+            Req myReq = (Req)myReqFactory.AddItem(DBNull.Value); //Create a new blank requirement (AccessViolationException)
+            myReq.Name = "Second Requirement"; //Populate Name
+            myReq.TypeId = "1"; // Populate Type: 0=Business, 1=Folder, 2=Functional, 3=Group, 4=Testing
+            myReq.ParentId = 0; // Populate Parent ID
+            myReq.Author = "Shan";
+            myReq.Priority = "1";
+            myReq.Comment = "Posting a requirement using COM API";
+            myReq.Post(); // 
+
+
+            /*List tsTestSetList = qc.retrieveTestSets(qcPath, qcTestSetName);
             foreach (TestSet testSet in tsTestSetList)
             {
                 qc.recordTestSetResults(testSet, results);
             }
 
-            log.Info("total # of tests updated: " + qc.testCount);
+            log.Info("total # of tests updated: " + qc.testCount);*/
 
             Console.Out.Write("press <NE> key to continue");
             Console.ReadKey();

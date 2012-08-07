@@ -4,3 +4,31 @@
 2011-11-16 15:43:53.1008|DEBUG|oneshore.QCIntegration.UpdateTestResultsInQC|reading file: C:\temp\testresults.csv
 2011-11-16 15:46:20.3017|DEBUG|oneshore.QCIntegration.UpdateTestResultsInQC|starting QCIntegration
 2011-11-16 15:46:20.3486|DEBUG|oneshore.QCIntegration.UpdateTestResultsInQC|reading file: C:\temp\testresults.csv
+2012-08-06 16:05:19.1215|DEBUG|oneshore.QCIntegration.UpdateTestResultsInQC|starting QCIntegration
+2012-08-06 16:05:19.1485|DEBUG|oneshore.QCIntegration.UpdateTestResultsInQC|reading file: C:\temp\testresults.csv
+2012-08-06 16:06:02.3440|DEBUG|oneshore.QCIntegration.UpdateTestResultsInQC|starting QCIntegration
+2012-08-06 16:06:02.3820|DEBUG|oneshore.QCIntegration.QCController|Creating TD connection.
+2012-08-06 16:06:02.9050|WARN|oneshore.QCIntegration.QCController|unable to connect to project in QC
+2012-08-06 16:06:02.9050|WARN|oneshore.QCIntegration.QCController|The RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2012-08-06 16:06:54.1599|DEBUG|oneshore.QCIntegration.UpdateTestResultsInQC|starting QCIntegration
+2012-08-06 16:06:54.1989|DEBUG|oneshore.QCIntegration.QCController|Creating TD connection.
+2012-08-06 16:06:54.2839|WARN|oneshore.QCIntegration.QCController|unable to connect to project in QC
+2012-08-06 16:06:54.2839|WARN|oneshore.QCIntegration.QCController|The RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2012-08-06 16:07:15.8332|DEBUG|oneshore.QCIntegration.UpdateTestResultsInQC|starting QCIntegration
+2012-08-06 16:07:15.8712|DEBUG|oneshore.QCIntegration.QCController|Creating TD connection.
+2012-08-06 16:07:25.7147|INFO|oneshore.QCIntegration.QCController|connected to QC project ConcordTest
+2012-08-06 16:23:29.7969|DEBUG|oneshore.QCIntegration.UpdateTestResultsInQC|starting QCIntegration
+2012-08-06 16:23:29.8359|DEBUG|oneshore.QCIntegration.QCController|Creating TD connection.
+2012-08-06 16:23:35.6712|INFO|oneshore.QCIntegration.QCController|connected to QC project ConcordTest
+2012-08-06 16:25:02.6802|DEBUG|oneshore.QCIntegration.UpdateTestResultsInQC|starting QCIntegration
+2012-08-06 16:25:02.7162|DEBUG|oneshore.QCIntegration.QCController|Creating TD connection.
+2012-08-06 16:25:07.8975|INFO|oneshore.QCIntegration.QCController|connected to QC project ConcordTest
+2012-08-06 16:26:13.3912|DEBUG|oneshore.QCIntegration.UpdateTestResultsInQC|starting QCIntegration
+2012-08-06 16:26:13.4322|DEBUG|oneshore.QCIntegration.QCController|Creating TD connection.
+2012-08-06 16:26:18.6065|INFO|oneshore.QCIntegration.QCController|connected to QC project ConcordTest
+2012-08-06 17:18:13.7387|DEBUG|oneshore.QCIntegration.UpdateTestResultsInQC|starting QCIntegration
+2012-08-06 17:18:13.7767|DEBUG|oneshore.QCIntegration.QCController|Creating TD connection.
+2012-08-06 17:18:19.5330|INFO|oneshore.QCIntegration.QCController|connected to QC project ConcordTest
+2012-08-06 17:18:37.6201|DEBUG|oneshore.QCIntegration.UpdateTestResultsInQC|starting QCIntegration
+2012-08-06 17:18:37.6581|DEBUG|oneshore.QCIntegration.QCController|Creating TD connection.
+2012-08-06 17:18:43.4254|INFO|oneshore.QCIntegration.QCController|connected to QC project ConcordTest

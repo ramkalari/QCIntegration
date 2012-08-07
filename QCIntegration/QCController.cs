@@ -13,6 +13,7 @@ namespace oneshore.QCIntegration
         public string qcProject { get; set; }
         public string qcLoginName { get; set; }
         public string qcPassword { get; set; }
+        public TDConnection TdConn { get; set; }
         public string qcUrl
         {
             get
